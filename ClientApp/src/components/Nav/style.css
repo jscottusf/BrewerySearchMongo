@@ -1,0 +1,24 @@
+.links {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  font-size: 18px;
+  padding: 0 10px;
+}
+
+.links .saved,
+.links .search {
+  padding: 0 5px;
+  color: white;
+  text-decoration: none;
+}
+
+.links .saved:hover,
+.links .search:hover {
+  color: #17a2b8;
+  transition: 0.5s;
+}
+
+.links .active {
+  color: #25e0fd;
+}
