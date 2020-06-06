@@ -11,12 +11,17 @@ class BrewSearch extends Component {
         this.state = {
             brewSearch: '',
             breweries: [],
-            message: 'Results will render here'
+            message: '...loading'
         }
     }
 
     componentDidMount = () => {
-        this.setState({ brewSearch: '', breweries: [] })
+        API.searchBreweryAPI('bud')
+            .then(res => {
+                const breweries = res.data.response.brewery.items;
+                this.setState({ breweries: breweries })
+            })
+            .catch(err => console.log(err));
     }
 
     loadBreweries = () => {

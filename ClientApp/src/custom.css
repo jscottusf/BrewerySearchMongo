@@ -24,3 +24,39 @@ code {
 #main-container {
     padding-bottom: 300px
 }
+
+#save {
+    z-index: 2;
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    font-size: 18px;
+}
+
+#red, #notSaved {
+    font-size: 30px;
+    margin: 1px;
+}
+
+#red {
+    color: red;
+}
+
+#red:hover,
+#notSaved:hover {
+    cursor: pointer;
+    font-size: 32px;
+    margin: 0;
+}
+
+#red:hover {
+    color: black;
+}
+
+#notSaved:hover {
+    color: red;
+}
+
+.fa-star:hover, #x:hover {
+    cursor: pointer;
+}

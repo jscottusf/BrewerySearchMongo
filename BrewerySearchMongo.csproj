@@ -26,7 +26,6 @@
     <None Remove="ClientApp\public\index.html" />
     <None Remove="ClientApp\public\manifest.json" />
     <None Remove="ClientApp\src\components\Layout.js" />
-    <None Remove="ClientApp\src\components\NavMenu.js" />
     <None Remove="ClientApp\src\components\Home.js" />
     <None Remove="ClientApp\src\components\NavMenu.css" />
   </ItemGroup>

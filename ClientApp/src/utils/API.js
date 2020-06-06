@@ -8,19 +8,19 @@ export default {
         return axios.get('/api/breweries');
     },
     getBrewery: function (id) {
-        return axios.get('/api/breweries' + id);
+        return axios.get('/api/breweries/' + id);
     },
     deleteBrewery: function (id) {
-        return axios.delete('/api/breweries' + id);
+        return axios.delete('/api/breweries/' + id);
     },
     postBrewery: function (postData) {
         return axios.post('/api/breweries', postData);
     },
     editBrewery: function (id, postData) {
-        return axios.put('/api/breweries' + id, postData);
+        return axios.put('/api/breweries/' + id, postData);
     },
     patchBrewery: function (id, postData) {
-        return axios.patch('/api/breweries' + id, postData);
+        return axios.patch('/api/breweries/' + id, postData);
     },
     searchBreweryAPI: function (query) {
         return axios.get(`https://api.untappd.com/v4/search/brewery?q=${query}&client_id=${ID}&client_secret=${SECRET}`);
