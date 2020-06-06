@@ -49,14 +49,14 @@ code {
     margin: 0;
 }
 
-#red:hover {
+#red:hover, #redSearch:hover {
     color: black;
 }
 
-#notSaved:hover {
+#notSaved:hover, #notSavedSearch:hover, #redSearch {
     color: red;
 }
 
-.fa-star:hover, #x:hover {
+.fa-star:hover, #x:hover, #notSavedSearch:hover, #redSearch {
     cursor: pointer;
 }

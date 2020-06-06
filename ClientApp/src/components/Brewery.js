@@ -12,7 +12,7 @@ class Brewery extends Component {
         this.breweryId = this.route[2];
         this.state = {
             breweryData: '',
-            message: '...loading',
+            queryMessage: '...loading',
             beerList: [],
             savedList: [],
             show: false,
@@ -131,7 +131,7 @@ class Brewery extends Component {
                             ))}
                         </CardBody>
                     </CardDiv>
-                ) : <h4>{this.state.message}</h4>}
+                ) : <h4>{this.state.queryMessage}</h4>}
             </div>
         )
     }
