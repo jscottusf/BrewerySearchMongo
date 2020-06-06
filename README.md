@@ -7,15 +7,15 @@ Deployed at: https://brewerysearchmongo.azurewebsites.net/
 
 # Brewery Search Page
 
-![Brewery Search Page](./client/public/search.png)
+![Brewery Search Page](./ClientApp/public/search.png)
 
 # Brewery Info and Beer List
 
-![Brewery Info and Beer List](./client/public/info.png)
+![Brewery Info and Beer List](./ClientApp/public/info.png)
 
 # Saved Breweries
 
-![Saved Breweries](./client/public/saved.png)
+![Saved Breweries](./ClientApp/public/saved.png)
 
 ## Technologies used
 
